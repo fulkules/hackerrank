@@ -1,0 +1,19 @@
+{
+  "name": "hackerrank",
+  "version": "1.0.0",
+  "description": "logic challenges",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fulkules/hackerrank.git"
+  },
+  "author": "Barry Fulk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fulkules/hackerrank/issues"
+  },
+  "homepage": "https://github.com/fulkules/hackerrank#readme"
+}
