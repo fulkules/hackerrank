@@ -4,7 +4,7 @@
   "description": "logic challenges",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/fulkules/hackerrank/issues"
   },
-  "homepage": "https://github.com/fulkules/hackerrank#readme"
+  "homepage": "https://github.com/fulkules/hackerrank#readme",
+  "devDependencies": {
+    "jest": "^26.1.0"
+  }
 }
