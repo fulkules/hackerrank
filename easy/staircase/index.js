@@ -48,12 +48,17 @@
 
 // The staircase is right-aligned, composed of # symbols and spaces, and has a height and width of n = 6.
 
-function staircase(n){
-    let space = ' ';
-    let hash = '#';
-    for(let i = 0; i < n; i++){
-        
+// fn(num) => str
+// initialize empty str var
+// iterate up to num arg
+    // concatenate n - i spaces + i #'s + line break
+
+function staircase(n) {
+    var s = '';
+    for (var i = 1; i <= n; i++) {
+        s += ' '.repeat(n - i) + '#'.repeat(i)  + '\n';
     }
+    return(s);
 }
 
 module.exports = staircase;
